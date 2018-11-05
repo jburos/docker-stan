@@ -26,8 +26,7 @@ RUN install2.r --error --deps TRUE \
     rstan \
 	loo \
 	bayesplot \
-    rstanarm \
-    rstantools \
+    brms \
+    ggridges \
     shinystan \
-    ggmcmc \
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
