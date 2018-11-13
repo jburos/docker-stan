@@ -12,10 +12,11 @@ See the [rocker](https://github.com/rocker-org/rocker) site for more information
 - [bayesplot](http://mc-stan.org/interfaces/bayesplot.html)
 - [loo](http://mc-stan.org/interfaces/loo.html)
 - [shinystan](http://mc-stan.org/interfaces/shinystan.html)
+- [brms](http://mc-stan.org/interfaces/brms.html)
 
 #
 # Containers and status
 
 | Docker Container Source on GitHub             | Docker Hub Build Status and URL
 | :---------------------------------------      | :-----------------------------------------
-| rstan        | [good](https://registry.hub.docker.com/u/jrnold/rstan/)
+| rstan        | [good](https://registry.hub.docker.com/u/jackinovik/docker-stan/)
