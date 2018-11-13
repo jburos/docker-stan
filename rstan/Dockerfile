@@ -24,9 +24,10 @@ RUN mkdir -p $HOME/.R/ \
 # Install rstan
 RUN install2.r --error --deps TRUE \
     rstan \
-	loo \
-	bayesplot \
+    loo \
+    bayesplot \
     brms \
     ggridges \
     shinystan \
+    projpred \
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
