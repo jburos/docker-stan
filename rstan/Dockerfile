@@ -1,5 +1,5 @@
 FROM rocker/verse:latest
-MAINTAINER Jeffrey Arnold jeffrey.arnold@gmail.com
+MAINTAINER Jacki Novik jackinovik_at_gmail.com
 
 RUN apt-get update \
 	&& apt-get install -y --no-install-recommends apt-utils ed libnlopt-dev \
