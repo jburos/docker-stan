@@ -30,3 +30,13 @@ RUN install2.r --error --deps TRUE \
     ggridges \
     shinystan \
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
+
+# install libboost for stannis package
+RUN apt-get update \
+  && apt-get install libboost-all-dev \
+  && apt-get clean \
+  && rm -rf /var/lib/apt/lists/
+
+# install Stannis package from https://github.com/sakrejda/stannis
+RUN installGithub.r -u -d sakrejda/stannis
+
